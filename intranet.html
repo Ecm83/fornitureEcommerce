@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intranet</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
+  </header>
+
+  <div class="contenedor-navegacion">
+    <nav class="nav-principal contenedor">
+      <a class="enlace" href="index.html">Inicio</a>
+      <a class="enlace" href="nosotros.html">Nosotros</a>
+      <a class="enlace" href="tienda.html">Tienda</a>
+      <a class="enlace" href="blog.html">Blog</a>
+      <a class="enlace" href="galeria.html">Galeria</a>
+      <a class="enlace" href="contacto.html">Contacto</a>
+      
+    </nav>
+  </div>
+
+  <main class="contenido-principal">
+    <h2 class="text-center">Introducir articulos nuevos</h2>  
+
+    <form class="formulario">
+      <fieldset>
+        <legend>Nuevo Artículo</legend>
+          <div class="campo">
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text" placeholder="Nombre del Artículo">
+          </div>
+
+          <div class="campo">
+            <label for="precio">Precio: </label>
+            <input id="precio" type="number" placeholder="Precio del Artículo">
+          </div>
+
+          <div class="campo">
+            <label for="proveedor">Proveedor: </label>
+            <input id="proveedor" type="text" placeholder="Proveedor del Artículo">
+          </div>
+
+          <div class="campo">
+            <label for="unidades-compradas">Teléfono: </label>
+            <input id="unidades-compradas" type="number" placeholder="Unidades Compradas">
+          </div>
+
+          <div class="campo">
+            <label for="img">Foto: </label>
+            <input id="img" type="url" placeholder="Url de la Foto">
+          </div>
+
+          <div class="campo">
+            <label for="descripción-articulo">Descripción del Artículo: </label>
+            <textarea id="descripción-articulo" cols="20" rows="10"></textarea>
+          </div>
+
+        </fieldset>
+        <input class="btn" type="submit" value="Enviar ">
+</body>
+</html>
